@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using internal CSS</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(150, 20, 100);
+        }
+        h1, i {
+            color:aqua;
+        }
+        a:hover, a:visited {
+            color: burlywood;
+        }
+        .page {
+            border: 4px solid #123456;
+            background-color: #efefef;
+            padding: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1>Potatoes</h1>
+    <p>Lorem ipsum <a href="https://www.delfi.ee"">dolor sit amet consectetur adipisicing elit.</a> Neque, perspiciatis quos cumque facere temporibus odio aliquam corporis ipsum minus aliquid animi consectetur quisquam veritatis exercitationem doloribus eius ipsa magni dolore!</p>
+    <p>Lorem ipsum dolor sit amet consectetur <i>adipisicing elit.</i> Neque, perspiciatis quos cumque facere temporibus odio aliquam corporis ipsum minus aliquid animi consectetur quisquam veritatis exercitationem doloribus eius ipsa magni dolore!</p>
+
+    <div class="page">
+        <h1>Potatoes</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo consequatur, animi saepe consequuntur error at laudantium repudiandae id dignissimos fugiat repellat? Nulla autem rerum ullam hic placeat. Tenetur, quibusdam quis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam unde soluta odio nemo laborum ducimus in neque consequatur sequi dolorum, minus incidunt aut perspiciatis, molestias accusamus doloribus corporis et. Possimus?</p>
+        
+    </div>
+</body>
+</html>
